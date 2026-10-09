@@ -1,0 +1,5 @@
+scenario,username,password,expectedError
+Invalid username,invalid_user,secret_sauce,Epic sadface: Username and password do not match any user in this service
+Invalid password,standard_user,wrong_password,Epic sadface: Username and password do not match any user in this service
+Blank username,,secret_sauce,Epic sadface: Username is required
+Blank password,standard_user,,Epic sadface: Password is required

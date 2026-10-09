@@ -1,0 +1,35 @@
+# Maven
+target/
+
+# Compiled class files
+*.class
+
+# IDE - IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# IDE - Eclipse
+.classpath
+.project
+.settings/
+bin/
+
+# IDE - VS Code
+.vscode/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Selenium / WebDriverManager cache
+.cache/
+
+# Generated test data may contain credential placeholders or test secrets
+src/test/resources/testdata/login_test_data_generated.xls
